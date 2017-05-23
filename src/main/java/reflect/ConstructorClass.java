@@ -1,6 +1,5 @@
 package reflect;
 
-import com.alibaba.fastjson.JSON;
 import entity.Person;
 
 import java.lang.reflect.Constructor;

@@ -20,10 +20,10 @@ public class Person extends Animal implements Fly, Serializable {
 
     public Person(String name) {
         this.name = name;
-        System.out.println(name);
     }
 
     public Person(String name, Integer i) {
+        this.name = name;
         System.out.println(name);
         System.out.println(i);
     }
@@ -41,6 +41,10 @@ public class Person extends Animal implements Fly, Serializable {
         System.out.println(i);
     }
 
+
+    public void getName(){
+        System.out.println(name);
+    }
     @Override
     public void eat() {
         System.out.println("person 在吃西餐，或者其他食物");
